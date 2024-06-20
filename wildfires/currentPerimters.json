@@ -53,7 +53,7 @@
         },
         "userData": {
           "encoding": "GeoJSON",
-          "mapping": "geometry"
+          "mapping": "currentPerimeter.geojson"
         }
       },
       {
