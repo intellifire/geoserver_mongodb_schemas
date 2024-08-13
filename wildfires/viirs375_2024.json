@@ -1,0 +1,302 @@
+{
+    "typeName": "viirs375_2024",
+    "userData": {
+        "collection": "viirs375_2024"
+    },
+    "geometryDescriptor": {
+        "localName": "geometry",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:EPSG:4326"
+            }
+        }
+    },
+    "attributeDescriptors": [
+        {
+            "localName": "geometry",
+            "type": {
+                "binding": "org.locationtech.jts.geom.Geometry"
+            },
+            "userData": {
+                "encoding": "GeoJSON",
+                "mapping": "geometry"
+            }
+        },
+        {
+            "localName": "properties.SCAN",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.SCAN"
+            }
+        },
+        {
+            "localName": "hot_date",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Integer"
+            },
+            "userData": {
+                "mapping": "hot_date"
+            }
+        },
+        {
+            "localName": "properties.ACQ_DATETIME_ISO8601",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.ACQ_DATETIME_ISO8601"
+            }
+        },
+        {
+            "localName": "type",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "type"
+            }
+        },
+        {
+            "localName": "hot",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Boolean"
+            },
+            "userData": {
+                "mapping": "hot"
+            }
+        },
+        {
+            "localName": "properties.BRIGHT_TI4",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.BRIGHT_TI4"
+            }
+        },
+        {
+            "localName": "properties.BRIGHT_TI5",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.BRIGHT_TI5"
+            }
+        },
+        {
+            "localName": "properties.SOURCE",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.SOURCE"
+            }
+        },
+        {
+            "localName": "properties.ACQ_DATE",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.ACQ_DATE"
+            }
+        },
+        {
+            "localName": "properties.BRIGHTNESS",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.BRIGHTNESS"
+            }
+        },
+        {
+            "localName": "properties.CONFIDENCE",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.CONFIDENCE"
+            }
+        },
+        {
+            "localName": "properties.BRIGHTNESS_2",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.BRIGHTNESS_2"
+            }
+        },
+        {
+            "localName": "properties.ACQ_DATETIME_UNIX",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Integer"
+            },
+            "userData": {
+                "mapping": "properties.ACQ_DATETIME_UNIX"
+            }
+        },
+        {
+            "localName": "properties.LONGITUDE",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.LONGITUDE"
+            }
+        },
+        {
+            "localName": "properties.TRACK",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.TRACK"
+            }
+        },
+        {
+            "localName": "unique_id",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "unique_id"
+            }
+        },
+        {
+            "localName": "properties.LATITUDE",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.LATITUDE"
+            }
+        },
+        {
+            "localName": "properties.ACQ_DATETIME",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.ACQ_DATETIME"
+            }
+        },
+        {
+            "localName": "age_hours",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "age_hours"
+            }
+        },
+        {
+            "localName": "properties.FRP",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.FRP"
+            }
+        },
+        {
+            "localName": "properties.ACQ_TIME",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.ACQ_TIME"
+            }
+        },
+        {
+            "localName": "warm",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Boolean"
+            },
+            "userData": {
+                "mapping": "warm"
+            }
+        },
+        {
+            "localName": "properties.ACQ_DATETIME_DIMENSION",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.util.Date"
+            },
+            "userData": {
+                "mapping": "properties.ACQ_DATETIME_DIMENSION"
+            }
+        },
+        {
+            "localName": "warm_date",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.Integer"
+            },
+            "userData": {
+                "mapping": "warm_date"
+            }
+        },
+        {
+            "localName": "_id",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "org.bson.types.ObjectId"
+            },
+            "userData": {
+                "mapping": "_id"
+            }
+        }
+    ]
+}
