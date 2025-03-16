@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/intellifire/geoserver_mongodb_schemas/main/hotspots/viirs375_2024.json
+https://raw.githubusercontent.com/intellifire/geoserver_mongodb_schemas/main/weather_stations/wx_stations_2025.json

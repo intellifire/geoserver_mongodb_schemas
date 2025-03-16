@@ -1,0 +1,214 @@
+{
+    "typeName": "weather_station",
+    "userData": {
+        "collection": "weather_station"
+    },
+    "geometryDescriptor": {
+        "localName": "geometry",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:EPSG:4326"
+            }
+        }
+    },
+    "attributeDescriptors": [
+        {
+            "localName": "geometry",
+            "type": {
+                "binding": "org.locationtech.jts.geom.Geometry"
+            },
+            "userData": {
+                "encoding": "GeoJSON",
+                "mapping": "geometry"
+            }
+        },
+        {
+            "localName": "wkt",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "wkt"
+            }
+        },
+        {
+            "localName": "xmitTime",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "xmitTime"
+            }
+        },
+        {
+            "localName": "nid",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "nid"
+            }
+        },
+        {
+            "localName": "nesdis",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "nesdis"
+            }
+        },
+        {
+            "localName": "fuelType",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "fuelType"
+            }
+        },
+        {
+            "localName": "cffdrsMeta",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "cffdrsMeta"
+            }
+        },
+        {
+            "localName": "sensorArray",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "sensorArray"
+            }
+        },
+        {
+            "localName": "sensorTokens",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "sensorTokens"
+            }
+        },
+        {
+            "localName": "cffdrsMode",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "cffdrsMode"
+            }
+        },
+        {
+            "localName": "meta",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "meta"
+            }
+        },
+        {
+            "localName": "elevationMeters",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "elevationMeters"
+            }
+        },
+        {
+            "localName": "sensorSuite",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "sensorSuite"
+            }
+        },
+        {
+            "localName": "contact",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "contact"
+            }
+        },
+        {
+            "localName": "name",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "name"
+            }
+        },
+        {
+            "localName": "_id",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "org.bson.types.ObjectId"
+            },
+            "userData": {
+                "mapping": "_id"
+            }
+        },
+        {
+            "localName": "region",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "region"
+            }
+        },
+        {
+            "localName": "status",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "status"
+            }
+        }
+    ]
+}
