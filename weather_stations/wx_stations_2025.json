@@ -5,18 +5,16 @@
     },
     "geometryDescriptor": {
         "localName": "geometry",
-        "crs": {
-            "type": "name",
-            "properties": {
-                "name": "urn:ogc:def:crs:EPSG:4326"
-            }
+        "userData": {
+            "encoding": "GeoJSON",
+            "srid": 4326
         }
     },
     "attributeDescriptors": [
         {
             "localName": "geometry",
             "type": {
-                "binding": "org.locationtech.jts.geom.Geometry"
+                "binding": "org.locationtech.jts.geom.Point"
             },
             "userData": {
                 "encoding": "GeoJSON",
