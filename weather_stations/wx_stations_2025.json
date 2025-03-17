@@ -24,14 +24,25 @@
             }
         },
         {
-            "localName": "wkt",
+            "localName": "meta.0",
             "minOccurs": 0,
             "maxOccurs": 1,
             "type": {
                 "binding": "java.lang.String"
             },
             "userData": {
-                "mapping": "wkt"
+                "mapping": "meta.0"
+            }
+        },
+        {
+            "localName": "cffdrs-mode-summer",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "cffdrs-mode-summer"
             }
         },
         {
@@ -68,14 +79,36 @@
             }
         },
         {
-            "localName": "fuelType",
+            "localName": "meta.2",
             "minOccurs": 0,
             "maxOccurs": 1,
             "type": {
                 "binding": "java.lang.String"
             },
             "userData": {
-                "mapping": "fuelType"
+                "mapping": "meta.2"
+            }
+        },
+        {
+            "localName": "meta.1",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "meta.1"
+            }
+        },
+        {
+            "localName": "meta.3",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "meta.3"
             }
         },
         {
@@ -112,6 +145,50 @@
             }
         },
         {
+            "localName": "contact",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "contact"
+            }
+        },
+        {
+            "localName": "wkt",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "wkt"
+            }
+        },
+        {
+            "localName": "cffdrs-mode-spring",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "cffdrs-mode-spring"
+            }
+        },
+        {
+            "localName": "fuelType",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "fuelType"
+            }
+        },
+        {
             "localName": "cffdrsMode",
             "minOccurs": 0,
             "maxOccurs": 1,
@@ -120,17 +197,6 @@
             },
             "userData": {
                 "mapping": "cffdrsMode"
-            }
-        },
-        {
-            "localName": "meta",
-            "minOccurs": 0,
-            "maxOccurs": 1,
-            "type": {
-                "binding": "java.lang.String"
-            },
-            "userData": {
-                "mapping": "meta"
             }
         },
         {
@@ -153,17 +219,6 @@
             },
             "userData": {
                 "mapping": "sensorSuite"
-            }
-        },
-        {
-            "localName": "contact",
-            "minOccurs": 0,
-            "maxOccurs": 1,
-            "type": {
-                "binding": "java.lang.String"
-            },
-            "userData": {
-                "mapping": "contact"
             }
         },
         {
@@ -197,6 +252,17 @@
             },
             "userData": {
                 "mapping": "region"
+            }
+        },
+        {
+            "localName": "cffdrs-mode-off",
+            "minOccurs": 0,
+            "maxOccurs": 1,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "cffdrs-mode-off"
             }
         },
         {
